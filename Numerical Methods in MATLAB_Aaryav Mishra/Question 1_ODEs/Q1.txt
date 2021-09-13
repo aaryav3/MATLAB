@@ -1,0 +1,3 @@
+On board, to solve such 2nd order equations we may use ODE2, since its truncation error was the least among the
+other ODE solvers. However we may use ode23s for better accuracy. The 's' used to prevent stiffness, leading to
+faster operations.
